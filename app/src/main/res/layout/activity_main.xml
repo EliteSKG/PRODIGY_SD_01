@@ -155,6 +155,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:visibility="visible"/>
+    <!-- the view-->
 
     <ImageView
         android:id="@+id/calc"
