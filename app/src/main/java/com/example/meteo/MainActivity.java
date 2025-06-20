@@ -55,7 +55,8 @@ public class MainActivity extends AppCompatActivity {
                    double sh = (celcius * (9.0/5.0)) + 32;
                    double temp = celcius;
                     display1.setText(String.valueOf(sh));
-                    Title.setText(String.valueOf(sh) + "°F");
+                   Title.setText(String.format("%.2f°F", sh));
+
                     Toast.makeText(MainActivity.this, "Converted in Fahrenheit 😁", Toast.LENGTH_SHORT).show();
                     statuts.setVisibility(View.VISIBLE);
                     statuts.setText("Fahrenheit");
